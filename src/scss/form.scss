@@ -1,0 +1,126 @@
+.form{
+  &__wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 82px;
+  }
+  &__bg{
+    width: 609px;
+    height: 625px;
+  }
+  &__title{
+    margin-top: 92px;
+    margin-bottom: 33px;
+    font-family: "Cambria", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    text-transform: uppercase;
+
+    /* текст */
+
+    color: #050910
+  }
+  &__subtitle{
+    margin-bottom: 36px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 161.19%;
+    /* or 29px */
+
+
+    /* текст */
+
+    color: #050910;
+  }
+  &__input {
+    width: 270px;
+    height: 46px;
+    padding: 11px 17px;
+    border: 1px solid white;
+    background: #FFFFFF;
+    box-shadow: 0 4px 15px rgba(132, 81, 26, 0.1);
+    border-radius: 10px;
+    margin-right: 20px;
+    outline: none;
+
+    &::placeholder{
+      font-family: "Roboto", sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 161.19%;
+      /* or 24px */
+
+
+      color: rgba(5, 9, 16, 0.2);
+    }
+  }
+  &__textarea{
+    margin-top: 20px;
+    display: block;
+
+    width: 560px;
+    height: 89px;
+    padding: 11px 17px 0;
+    border: 1px solid white;
+    background: #FFFFFF;
+    box-shadow: 0 4px 15px rgba(132, 81, 26, 0.1);
+    border-radius: 10px;
+    margin-right: 20px;
+    outline: none;
+    resize: none;
+
+    &::placeholder{
+      font-family: "Roboto", sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 161.19%;
+      /* or 24px */
+
+
+      color: rgba(5, 9, 16, 0.2);
+    }
+  }
+  &__btn{
+    margin-top: 27px;
+    display: flex;
+
+  }
+  &__submit{
+    width: 280px;
+    height: 62px;
+    text-align: center;
+    background: #FF5249;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    border: none;
+
+    border-radius: 45px;
+    outline: none;
+    margin-right: 21px;
+  }
+  &__keys{
+    display: flex;
+    align-items: center;
+    & > P{
+      margin-left: 7px;
+      font-family: "Roboto", sans-serif;
+      font-style: italic;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 161.19%;
+      /* or 24px */
+
+
+      color: rgba(14, 44, 129, 0.2)
+    }
+  }
+}
+

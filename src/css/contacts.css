@@ -1,0 +1,45 @@
+@import "../fonts/robot/roboto.css";
+.contacts {
+  background: #091F5E;
+  padding: 15px 0;
+  position: relative;
+}
+.contacts__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contacts__phones {
+  display: flex;
+  list-style: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+}
+.contacts__phones li {
+  margin: 0 70px 0 0;
+  display: flex;
+  align-items: center;
+}
+.contacts__phones li img {
+  margin: 0 7px 0 0;
+}
+.contacts__location {
+  list-style: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+}
+.contacts__location li {
+  display: flex;
+  align-items: center;
+}
+.contacts__location li img {
+  margin: 0 7px 0 0;
+}

@@ -1,0 +1,91 @@
+.advantage{
+  margin-top: 115px;
+  &__wrapper{
+
+  }
+  &__title{
+    font-family: "Cambria", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    text-transform: uppercase;
+
+    /* текст */
+
+    color: #050910
+
+  }
+  &__cards{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.items{
+  position: relative;
+  margin-top: 63px;
+  & > h6{
+    font-family: "Cambria",sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    background: linear-gradient(0deg, #FF392F -17.95%, #FFDEDC 56.13%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    position: absolute;
+    top: -40px;
+    z-index: -1;
+  }
+  &__img{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+  }
+}
+
+.facts{
+  background: radial-gradient(34.95% 44.84% at 56.51% 79.84%, #FFFDF5 0%, #FFF8F0 100%);
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: 0 4px 4px rgba(132,81,26, 0.15);
+  position: relative;
+
+
+
+  &__text > h2{
+    padding-top: 30px;
+    padding-left: 30px;
+    margin-bottom: 30px;
+    font-family: "Cambria", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+
+    /* текст */
+
+    color: #050910
+  }
+  &__text > p{
+    padding-left: 30px;
+    padding-bottom: 30px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 161.19%;
+    /* or 24px */
+
+
+    /* текст */
+
+    color: #050910;
+  }
+}

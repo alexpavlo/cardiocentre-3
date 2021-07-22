@@ -1,0 +1,98 @@
+.blog{
+  &__wrapper{
+    margin-top: 115px;
+    position: relative;
+  }
+  &__title{
+    font-family: "Cambria", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    text-transform: uppercase;
+
+    /* текст */
+
+    color: #050910;
+  }
+  &__items{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 44px;
+  }
+  &__item{
+    width: 367px;
+    height: 460px;
+
+    box-shadow: 0 4px 4px rgba(132, 81, 26, 0.15);
+    border-radius: 10px;
+
+    & > h3 {
+      margin: 19px 35px 8px;
+      font-family: "Cambria", sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 25px;
+      /* or 139% */
+
+
+      /* текст */
+
+      color: #050910;
+    }
+    & > p {
+      margin: 8px 35px 12px;
+      font-family: "Roboto", sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 161.19%;
+      /* or 24px */
+
+
+      /* текст */
+
+      color: #050910;
+    }
+    & > a{
+      margin-left: 35px;
+      font-family: "Roboto", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 161.19%;
+      color: #FF5249;
+      text-decoration: none;
+
+      & > img{
+        margin-left: 13px;
+      }
+    }
+  }
+  &__img{
+    width: 367px;
+    height: 217px;
+  }
+  &__read{
+    margin-top: 37px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 13px;
+    color: #FF5249;
+    text-decoration: none;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    padding: 15px 20px;
+    border: 2px solid #FF5249;
+    border-radius: 51px;
+    position: absolute;
+    right: 0;
+  }
+}

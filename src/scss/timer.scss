@@ -1,0 +1,115 @@
+.timer{
+  padding-top: 115px;
+  &__wrapper{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__title{
+    margin-bottom: 32px;
+    text-align: center;
+    font-family: "Cambria", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    text-transform: uppercase;
+
+    /* текст */
+
+    color: #050910;
+  }
+  &__img{
+    border-radius: 50%;
+    text-align: center;
+    width: 437px;
+    height: 437px;
+    border: 1px solid white;
+    box-shadow: 8px 19px 25px rgba(71, 58, 55, 0.1);
+    padding: 73px 125px 72px 100px;
+  }
+  &__price{
+    color: #FF5249;
+    font-family: "Cambria", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    display: flex;
+    position: absolute;
+    border-radius: 50%;
+    padding: 32px 22px;
+    background: #FFFFFF;
+    box-shadow: 3px 5px 15px rgba(71, 58, 55, 0.1)
+  }
+  &__timer{
+    margin-top: 95px;
+  }
+  &__timer > h3{
+    font-family: "Cambria", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 43px;
+
+    /* текст */
+
+    color: #050910;
+    & > span{
+      color: #FF5249;
+    }
+  }
+  &__timer > p {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 161.19%;
+    margin-bottom: 5px;
+    /* or 24px */
+
+
+    /* текст */
+    color: #050910;
+  }
+  &__sell{
+    margin-top: 41px;
+    display: block;
+    width: 256px;
+    height: 63px;
+    padding: 23px 57px;
+    text-align: center;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    font-style: normal;
+    text-decoration: none;
+    //margin-top: 32px;
+    border-radius: 51px;
+    background: #FF5249;
+    text-transform: uppercase;
+  }
+}
+.countdown{
+  &__p{
+    display: flex;
+    justify-content: space-between;
+    & > p {
+      font-family: "Roboto", sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 161.19%;
+      /* or 24px */
+
+
+      /* текст */
+
+      color: #050910
+    }
+  }
+}
+

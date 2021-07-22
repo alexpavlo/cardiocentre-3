@@ -1,0 +1,32 @@
+@import "contacts.css";
+@import "header.css";
+@import "main.css";
+@import "timer.css";
+@import "specs.css";
+@import "advantage.css";
+@import "trigger.css";
+@import "reviews.css";
+@import "form.css";
+@import "blog.css";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.counter{
+    font-family: "Cambria", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 70px;
+    line-height: 82px;
+    /* identical to box height */
+
+
+    color: #0E2C81;
+}
