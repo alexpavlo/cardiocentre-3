@@ -75,8 +75,13 @@
     width: 367px;
     height: 217px;
   }
-  &__read{
+
+  &__link{
+    text-align: end;
     margin-top: 37px;
+  }
+
+  &__read{
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -92,7 +97,5 @@
     padding: 15px 20px;
     border: 2px solid #FF5249;
     border-radius: 51px;
-    position: absolute;
-    right: 0;
   }
 }

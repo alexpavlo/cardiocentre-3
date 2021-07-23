@@ -43,3 +43,9 @@
 .contacts__location li img {
   margin: 0 7px 0 0;
 }
+
+@media (max-width: 768px) {
+  .contacts__phones > li:nth-of-type(2) {
+    display: none;
+  }
+}

@@ -45,3 +45,16 @@ background: #091F5E;
   }
 }
 
+@media (max-width: 768px) {
+  .contacts{
+    &__wrapper{
+
+    }
+    &__phones{
+      & > li:nth-of-type(2){
+        display: none;
+      }
+    }
+  }
+}
+

@@ -6,7 +6,7 @@
 }
 .main__wrapper {
   display: flex;
-  justify-content: space-between;
+  padding-top: 51px;
 }
 .main__text {
   margin-top: 241px;
@@ -52,7 +52,9 @@
   text-transform: uppercase;
 }
 .main__spec > img {
-  margin-top: 52px;
+  max-width: 100%;
+  object-fit: cover;
+  object-position: right;
   padding-right: 45px;
 }
 .main__vid {
@@ -89,4 +91,11 @@
   background-size: cover;
   width: 95px;
   height: 95px;
+}
+
+@media (max-width: 768px) {
+  .main__spec {
+    width: 434px;
+    height: 944px;
+  }
 }

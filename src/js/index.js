@@ -1,3 +1,15 @@
+let burger = document.querySelector('.burger');
+let nav = document.querySelector('.nav');
+
+burger.addEventListener('click', function () {
+burger.classList.toggle('activeMenu');
+nav.classList.toggle('activeMenu')
+
+})
+
+
+
+
 let launchDate = new Date ("Aug 10, 2021 12:00:00").getTime();
 
 let timer = setInterval(tick, 1000);

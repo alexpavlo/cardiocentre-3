@@ -8,6 +8,7 @@
 @import "reviews.css";
 @import "form.css";
 @import "blog.css";
+@import "footer.css";
 
 *{
     padding: 0;
@@ -29,4 +30,12 @@
 
 
     color: #0E2C81;
+}
+
+
+@media (max-width: 768px) {
+    .container{
+        padding: 0 30px;
+    }
+
 }
