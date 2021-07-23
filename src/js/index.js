@@ -80,7 +80,7 @@ $(document).ready(function () {
 })
 
 $(document).ready(function () {
-    $(".owl-carousel").owlCarousel({
+    $(".reviews__selectors").owlCarousel({
         nav: true,
         margin: 180,
         loop: true,
