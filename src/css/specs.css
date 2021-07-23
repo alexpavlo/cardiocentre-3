@@ -20,8 +20,6 @@
 }
 .carousel__cards {
   margin-bottom: 58px;
-  display: flex;
-  justify-content: space-between;
 }
 
 .cards {
@@ -88,4 +86,11 @@
 }
 .circle > .active {
   opacity: 1;
+}
+
+.owl-dots {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: #FF5249;
 }

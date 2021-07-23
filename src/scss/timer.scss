@@ -96,8 +96,9 @@
 .countdown{
   &__p{
     display: flex;
-    justify-content: space-between;
+
     & > p {
+      margin-right: 60px;
       font-family: "Roboto", sans-serif;
       font-style: normal;
       font-weight: 300;
@@ -113,3 +114,31 @@
   }
 }
 
+
+@media (max-width: 768px) {
+  .timer{
+    &__wrapper{
+    }
+    &__timer{
+      margin-left: 23px;
+      & > h3{
+        line-height: 29px;
+      }
+    }
+    &__sell{
+      display: none;
+    }
+  }
+
+  .countdown{
+    font-size: 52px;
+    line-height: 61px;
+    & .countdown__p > p{
+      margin-right: 30px;
+    }
+    & .counter{
+      font-size: 52px;
+      line-height: 61px;
+    }
+  }
+}

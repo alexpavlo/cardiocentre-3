@@ -36,6 +36,11 @@
     margin-bottom: 54px;
     margin-top: 48px;
   }
+  &__select{
+    margin-right: 20px;
+    width: 270px;
+    height: 223px;
+  }
    &__select > h4{
      margin-top: 16px;
      margin-bottom: 7px;
@@ -113,4 +118,11 @@
       opacity: 0.5
     }
   }
+}
+
+.stars{
+  display: flex;
+}
+.circle{
+margin: 54px 0 0 0;
 }

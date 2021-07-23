@@ -90,9 +90,9 @@
 
 .countdown__p {
   display: flex;
-  justify-content: space-between;
 }
 .countdown__p > p {
+  margin-right: 60px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -101,4 +101,28 @@
   /* or 24px */
   /* текст */
   color: #050910;
+}
+
+@media (max-width: 768px) {
+  .timer__timer {
+    margin-left: 23px;
+  }
+  .timer__timer > h3 {
+    line-height: 29px;
+  }
+  .timer__sell {
+    display: none;
+  }
+
+  .countdown {
+    font-size: 52px;
+    line-height: 61px;
+  }
+  .countdown .countdown__p > p {
+    margin-right: 30px;
+  }
+  .countdown .counter {
+    font-size: 52px;
+    line-height: 61px;
+  }
 }

@@ -6,10 +6,8 @@
   z-index: 2;
   &__wrapper{
     display: flex;
-    justify-content: space-between;
   }
   &__call{
-    display: block;
     width: 158px;
     height: 42px;
     padding: 15px 25px;
@@ -102,6 +100,7 @@
 
 .menu{
   display: flex;
+  margin: 0 40px 0 225px
 }
 
 @media (max-width: 768px) {
@@ -109,12 +108,12 @@
     overflow-x: hidden;
   }
   .header{
-    position: fixed;
+
   }
   .burger{
     display: block;
     z-index: 5;
-    left: 160px;
+    left: 350px;
     & > span{
       background: #FF5249;
     }
@@ -146,4 +145,21 @@
       }
     }
   }
+  .menu{
+    margin: 0 29px 0 359px
+  }
+}
+
+@media (max-width: 380px) {
+  .container{
+    padding: 15px;
+  }
+  .header{
+    &__call{
+      display: none;
+    }
+  }
+.burger{
+  left: 100px;
+}
 }

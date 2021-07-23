@@ -5,7 +5,9 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./src/css/index.css">
+
     <title>Document</title>
 </head>
 <body>
@@ -48,8 +50,8 @@
                         <li><a href="#">Контакты</a></li>
                     </ul>
                 </nav>
-                <a href="#" class="header__call">Заказать звонок</a>
             </div>
+            <a href="#" class="header__call">Заказать звонок</a>
         </div>
     </div>
 </header>
@@ -72,13 +74,11 @@
 
             </div>
             <div class="main__vid">
-                <a href="#"><img src="./src/img/main/play.svg" alt="">
+
+                <a href="#" class="play"><img src="./src/img/main/play.svg" alt="">
                     <br> Посмотрите видео <br>
                     о нашей клинике
                 </a>
-            </div>
-            <div class="main__spec">
-                <img src="./src/img/main/spec.png" alt="">
             </div>
         </div>
     </div>
@@ -104,7 +104,7 @@
                     прямо сейчас и получите <span>скидку 10%</span></h3>
                 <p>До конца акции осталось:</p>
                 <div class="countdown">
-                    <div class="counter">00 : 00 : 00 : 00</div>
+                    <div class="counter">00:00:00:00</div>
                     <div class="countdown__p">
                         <p>Дней</p>
                         <p>Часов</p>
@@ -129,10 +129,9 @@
                         <button class="next"><img src="./src/img/specs/coolicon.svg" alt=""></button>
                     </div>
                 </div>
-                <div class="carousel__cards">
+                <div class="owl-carousel carousel__cards">
                     <div class="cards">
                         <div class="cards__img"><img src="./src/img/specs/cards/1.svg" alt=""></div>
-
                         <h5>ВЭМ <br>
                             (Велоэргометрия)</h5>
                     </div>
@@ -353,7 +352,7 @@
                     <button class="next"><img src="./src/img/specs/coolicon.svg" alt=""></button>
                 </div>
             </div>
-            <div class="reviews__selectors">
+            <div class="owl-carousel">
                 <div class="reviews__select">
                     <div class="reviews__selects">
                         <img src="./src/img/reviews/1.png" alt="" class="reviews__pic">
@@ -607,6 +606,9 @@
     </div>
 </section>
 
+
+<script src="./src/js/jquery-3.6.0.min.js"></script>
+<script src="./src/js/owl.carousel.min.js"></script>
 <script src="./src/js/index.js"></script>
 </body>
 </html>
