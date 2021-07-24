@@ -126,3 +126,37 @@
     line-height: 61px;
   }
 }
+@media (max-width: 380px) {
+  .timer__wrapper {
+    display: block;
+  }
+  .timer__heart {
+    width: 295px;
+    margin: 0 auto;
+  }
+  .timer__img {
+    width: 258px;
+    height: 258px;
+    padding: 43px 73px 43px 60px;
+  }
+  .timer__img > img {
+    object-fit: cover;
+    width: 125px;
+    height: 175px;
+  }
+  .timer__price {
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .timer__timer {
+    margin-top: 32px;
+  }
+  .timer__timer > h3 {
+    font-size: 15px;
+    line-height: 21px;
+  }
+  .timer__title {
+    font-size: 20px;
+    line-height: 32px;
+  }
+}

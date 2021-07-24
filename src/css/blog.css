@@ -83,3 +83,39 @@
   border: 2px solid #FF5249;
   border-radius: 51px;
 }
+
+@media (max-width: 380px) {
+  .blog__title {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .blog__item {
+    margin-right: 16px;
+    width: 291px;
+    height: 421px;
+  }
+  .blog__item > h3 {
+    font-size: 15px;
+    line-height: 21px;
+    margin: 21px 16px 11px;
+  }
+  .blog__item > p {
+    margin: 0 16px 20px;
+  }
+  .blog__item > a {
+    margin: 0 16px 34px;
+  }
+  .blog__img {
+    width: 291px;
+    height: 173px;
+  }
+  .blog__img > img {
+    object-fit: cover;
+    max-width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .blog__item {
+    margin-right: 16px;
+  }
+}

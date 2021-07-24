@@ -7,10 +7,17 @@
 .footer__wrapper > ul {
   list-style: none;
 }
-.footer__wrapper > ul > .footer__link {
+.footer__wrapper > ul > div:nth-of-type(1) {
+  margin-right: 95px;
+}
+.footer__wrapper > ul:nth-of-type(1) {
+  display: flex;
+  list-style: none;
+}
+.footer__wrapper > ul > div > .footer__link {
   margin-bottom: 5px;
 }
-.footer__wrapper > ul > .footer__link > a {
+.footer__wrapper > ul > div > .footer__link > a {
   text-decoration: none;
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -56,4 +63,78 @@
 }
 .social__wrapper > ul > .footer__location > a > img {
   margin-right: 15px;
+}
+
+@media (max-width: 380px) {
+  .footer__wrapper {
+    display: block;
+  }
+  .footer__wrapper > ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-right: 13px;
+    margin-bottom: 20px;
+  }
+
+  .logo {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .social__wrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .social__wrapper > div {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .logo {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer__wrapper {
+    display: block;
+  }
+  .footer__wrapper > ul {
+    list-style: none;
+  }
+  .footer__wrapper > ul > div {
+    display: flex;
+    margin-right: 0;
+  }
+  .footer__wrapper > ul > div > .footer__link {
+    margin-right: 15px;
+  }
+  .footer__wrapper > ul > div:nth-of-type(1) {
+    margin-right: 0;
+  }
+  .footer__wrapper > ul:nth-of-type(1) {
+    margin: 25px 0;
+    display: flex;
+    justify-content: center;
+  }
+  .footer__wrapper > ul:nth-of-type(2) {
+    display: flex;
+    justify-content: center;
+  }
+  .footer__wrapper > ul:nth-of-type(2) > .footer__phone {
+    margin-right: 30px;
+  }
+
+  .social__wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .social__wrapper > div {
+    margin-bottom: 19px;
+  }
 }

@@ -89,8 +89,48 @@
 }
 
 .owl-dots {
-  height: 15px;
-  width: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.owl-dot {
+  margin-top: 49px;
+  border: none;
+  margin-right: 8px;
+  height: 12px;
+  width: 12px;
   border-radius: 50%;
   background-color: #FF5249;
+  opacity: 0.2;
+}
+.owl-dot.active {
+  opacity: 1;
+}
+
+.owl-nav {
+  display: none;
+}
+
+.owl-stage {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .circle {
+    justify-content: flex-end;
+  }
+
+  .carousel__buttons {
+    display: none;
+  }
+
+  .owl-dots {
+    justify-content: flex-end;
+  }
+}
+@media (max-width: 380px) {
+  .specs__title {
+    font-size: 20px;
+    line-height: 32px;
+  }
 }

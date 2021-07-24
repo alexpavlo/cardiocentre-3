@@ -25,6 +25,7 @@
   z-index: 1;
 }
 .main__title {
+  width: 60%;
   font-family: "Cambria", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -35,6 +36,7 @@
   color: #050910;
 }
 .main__subtitle {
+  width: 60%;
   margin-top: 32px;
   margin-bottom: 64px;
   font-family: "Roboto", sans-serif;
@@ -125,5 +127,15 @@
 @media (max-width: 380px) {
   .main__wrapper:before {
     display: none;
+  }
+  .main__title {
+    width: 100%;
+    font-size: 28px;
+    line-height: 33px;
+  }
+  .main__subtitle {
+    width: 100%;
+    font-size: 16px;
+    line-height: 159.2%;
   }
 }

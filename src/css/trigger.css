@@ -65,3 +65,19 @@
   /* текст */
   color: #050910;
 }
+
+@media (max-width: 768px) {
+  .trigger__items {
+    flex-wrap: wrap;
+  }
+
+  .item {
+    margin-bottom: 60px;
+  }
+}
+@media (max-width: 380px) {
+  .trigger__title {
+    font-size: 20px;
+    line-height: 32px;
+  }
+}

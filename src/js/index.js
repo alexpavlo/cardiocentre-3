@@ -52,15 +52,10 @@ $(document).ready(function() {
 
 $(document).ready(function () {
     $(".carousel__cards").owlCarousel({
-        dots: true,
-
-        margin: 30,
-        loop: true,
-        autoplay: true,
-        autoplayTimeout: 2000,
-        autoplayHoverPause: true,
+        margin: 20,
         responsive: {
-            0:{
+            320:{
+                margin: 200,
                 items: 2,
                 nav: false,
                 pagination: true
@@ -81,15 +76,24 @@ $(document).ready(function () {
 
 $(document).ready(function () {
     $(".reviews__selectors").owlCarousel({
-        nav: true,
-        margin: 180,
-        loop: true,
-        autoplay: true,
-        autoplayTimeout: 2000,
-        autoplayHoverPause: true,
+        margin: 20,
         responsive: {
+            320:{
+                margin:280,
+                items: 2,
+                nav: false,
+                pagination: true
+            },
+            768:{
+                margin: 120,
+                items: 3,
+                nav: false,
+                pagination: true
+            },
             1000:{
-                items: 5
+                items: 4,
+                nav: true,
+                pagination: true
             }
         }
     })
@@ -98,3 +102,10 @@ $(document).ready(function () {
 $('.owl-nav').ready(function (event) {
 $(".owl-nav").removeClass('disabled')
 });
+
+set_timer($('.counter'),[
+    20,
+    20,
+    20,
+    20
+]);

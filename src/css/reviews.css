@@ -27,7 +27,6 @@
   color: #050910;
 }
 .reviews__selectors {
-  display: flex;
   justify-content: space-between;
   margin-bottom: 54px;
   margin-top: 48px;
@@ -106,4 +105,16 @@
 
 .circle {
   margin: 54px 0 0 0;
+}
+
+@media (max-width: 768px) {
+  .reviews__btn {
+    display: none;
+  }
+}
+@media (max-width: 380px) {
+  .reviews__titleBtn > h2 {
+    font-size: 20px;
+    line-height: 32px;
+  }
 }

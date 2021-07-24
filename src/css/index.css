@@ -20,6 +20,8 @@
     margin: 0 auto;
 }
 
+
+
 .counter{
     font-family: "Cambria", sans-serif;
     font-style: normal;
@@ -38,4 +40,9 @@
         padding: 0 30px;
     }
 
+}
+@media (max-width: 380px){
+    .container{
+        padding: 0 15px;
+    }
 }

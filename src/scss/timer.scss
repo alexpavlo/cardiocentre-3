@@ -142,3 +142,40 @@
     }
   }
 }
+@media (max-width: 380px){
+  .timer{
+    &__wrapper{
+      display: block;
+    }
+    &__heart{
+      width: 295px;
+      margin: 0 auto;
+    }
+    &__img{
+      width: 258px;
+      height: 258px;
+      padding: 43px 73px 43px 60px;
+      & > img{
+        object-fit: cover;
+        width: 125px;
+        height: 175px;
+      }
+    }
+    &__price{
+      font-size: 10px;
+      line-height: 12px;
+    }
+    &__timer{
+      margin-top: 32px;
+
+      & > h3{
+        font-size: 15px;
+        line-height: 21px;
+      }
+    }
+    &__title{
+      font-size: 20px;
+      line-height: 32px;
+    }
+  }
+}

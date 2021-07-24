@@ -99,3 +99,45 @@
     border-radius: 51px;
   }
 }
+
+@media (max-width: 380px){
+  .blog{
+    &__title{
+      font-size: 20px;
+      line-height: 32px;
+    }
+    &__item{
+      margin-right: 16px;
+      width: 291px;
+      height: 421px;
+
+      & > h3{
+        font-size: 15px;
+        line-height: 21px;
+        margin: 21px 16px 11px;
+      }
+      & > p{
+        margin: 0 16px 20px;
+      }
+      & > a {
+        margin: 0 16px 34px;
+      }
+    }
+    &__img{
+      width: 291px;
+      height: 173px;
+      & > img{
+        object-fit: cover;
+        max-width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .blog{
+    &__item{
+      margin-right: 16px;
+    }
+  }
+}

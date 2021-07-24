@@ -59,6 +59,7 @@
 
 
 
+
   &__text > h2{
     padding-top: 30px;
     padding-left: 30px;
@@ -87,5 +88,20 @@
     /* текст */
 
     color: #050910;
+  }
+}
+
+@media (max-width: 380px) {
+  .advantage{
+    &__title{
+      font-size: 20px;
+      line-height: 32px;
+    }
+  }
+  .items{
+    margin-top: 10px;
+    & > h6{
+      display: none;
+    }
   }
 }
