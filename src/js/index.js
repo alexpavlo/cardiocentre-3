@@ -50,53 +50,114 @@ $(document).ready(function() {
     });
 });
 
-$(document).ready(function () {
-    $(".carousel__cards").owlCarousel({
-        margin: 20,
-        responsive: {
-            320:{
-                margin: 200,
-                items: 2,
-                nav: false,
-                pagination: true
-            },
-            768:{
-                items: 3,
-                nav: false,
-                pagination: true
-            },
-            1000:{
-                items: 5,
-                nav: true,
-                pagination: true
+// $(document).ready(function () {
+//     $(".carousel__cards").owlCarousel({
+//         margin: 20,
+//         responsive: {
+//             320:{
+//                 margin: 200,
+//                 items: 2,
+//                 nav: false,
+//                 pagination: true
+//             },
+//             768:{
+//                 items: 3,
+//                 nav: false,
+//                 pagination: true
+//             },
+//             1000:{
+//                 items: 5,
+//                 nav: true,
+//                 pagination: true
+//             }
+//         }
+//     })
+// })
+
+// $(document).ready(function () {
+//     $(".reviews__selectors").owlCarousel({
+//         margin: 20,
+//         responsive: {
+//             320:{
+//                 margin:280,
+//                 items: 2,
+//                 nav: false,
+//                 pagination: true
+//             },
+//             768:{
+//                 margin: 120,
+//                 items: 3,
+//                 nav: false,
+//                 pagination: true
+//             },
+//             1000:{
+//                 items: 4,
+//                 nav: true,
+//                 pagination: true
+//             }
+//         }
+//     })
+// })
+
+
+// $(document).ready(function () {
+// $('.carousel__cards').slick({
+//
+// })
+// })
+
+$('.carousel__cards').slick({
+    dots: true,
+    infinite: false,
+    speed: 300,
+    slidesToShow: 5,
+    slidesToScroll: 5,
+    responsive:[
+        {
+            breakpoint:768,
+            settings:{
+                dots: true,
+                infinite: false,
+                speed: 300,
+                slidesToShow: 3,
+                slidesToScroll: 3,
+            }
+        },
+        {
+            breakpoint: 458,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
             }
         }
-    })
+    ]
 })
 
-$(document).ready(function () {
-    $(".reviews__selectors").owlCarousel({
-        margin: 20,
-        responsive: {
-            320:{
-                margin:280,
-                items: 2,
-                nav: false,
-                pagination: true
-            },
-            768:{
-                margin: 120,
-                items: 3,
-                nav: false,
-                pagination: true
-            },
-            1000:{
-                items: 4,
-                nav: true,
-                pagination: true
+$('.reviews__selectors').slick({
+    dots: true,
+    infinite: false,
+    speed: 300,
+    slidesToShow: 4,
+    slidesToScroll: 4,
+    responsive:[
+        {
+            breakpoint:768,
+            settings:{
+                dots: true,
+                infinite: false,
+                speed: 300,
+                slidesToShow: 3,
+                slidesToScroll: 3,
+            }
+        },
+        {
+            breakpoint: 458,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
             }
         }
-    })
+    ]
 })
 
 $('.owl-nav').ready(function (event) {

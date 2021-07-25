@@ -32,14 +32,32 @@
     //border: 2px dashed #FF5249;
     width: 173px;
     height: 173px;
-    background: url("../img/trigger/circle.png") center no-repeat;
+    //background: url("../img/circle.svg") center no-repeat;
     background-size: cover;
     position: relative;
-    & > span{
+
+    & > img {
+      animation: circl 3s linear infinite;
+    }
+
+    & > div{
+      width: 126px;
+      height: 126px;
+      background: #FFFFFF;
+      box-shadow: 3px 5px 15px rgba(71, 58, 55, 0.1);
+      border-radius: 50%;
       position: absolute;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
+    }
+
+    & > div > span{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
 
       color: #FF5249;
       font-family: "Cambria", sans-serif;
@@ -98,5 +116,14 @@
     &__items{
 
     }
+  }
+}
+
+@keyframes circl {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
   }
 }

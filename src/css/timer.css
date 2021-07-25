@@ -27,6 +27,9 @@
   box-shadow: 8px 19px 25px rgba(71, 58, 55, 0.1);
   padding: 73px 125px 72px 100px;
 }
+.timer__img > img {
+  animation: pulse 1s linear infinite;
+}
 .timer__price {
   color: #FF5249;
   font-family: "Cambria", sans-serif;
@@ -158,5 +161,16 @@
   .timer__title {
     font-size: 20px;
     line-height: 32px;
+  }
+}
+@keyframes pulse {
+  0% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.9);
   }
 }

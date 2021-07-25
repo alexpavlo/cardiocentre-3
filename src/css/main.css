@@ -1,7 +1,5 @@
 @charset "UTF-8";
 .main {
-  background: url("../img/main/bg.png") center, no-repeat;
-  background-size: cover;
   position: relative;
 }
 .main__wrapper {
@@ -112,6 +110,13 @@
   height: 95px;
 }
 
+.video {
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  opacity: 0.5;
+}
+
 @media (max-width: 768px) {
   .main__wrapper:before {
     content: "";
@@ -124,7 +129,7 @@
     right: -177px;
   }
 }
-@media (max-width: 380px) {
+@media (max-width: 458px) {
   .main__wrapper:before {
     display: none;
   }
