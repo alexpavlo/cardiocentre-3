@@ -23,6 +23,11 @@
   font-size: 11px;
   line-height: 13px;
   text-transform: uppercase;
+  transition: 0.5s;
+}
+.header__call:hover {
+  color: white;
+  background: #FF5249;
 }
 
 .nav {
@@ -46,6 +51,11 @@
 .nav ul li a {
   text-decoration: none;
   color: #050910;
+  transition: 0.5s;
+}
+.nav ul li a:hover {
+  color: #FF5249;
+  transition: 0.5s;
 }
 
 .logo {
@@ -139,7 +149,7 @@
     margin: 0 29px 0 359px;
   }
 }
-@media (max-width: 380px) {
+@media (max-width: 458px) {
   .container {
     padding: 15px;
   }

@@ -84,7 +84,7 @@
   border-radius: 51px;
 }
 
-@media (max-width: 380px) {
+@media (max-width: 458px) {
   .blog__title {
     font-size: 20px;
     line-height: 32px;

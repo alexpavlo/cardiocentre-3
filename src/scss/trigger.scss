@@ -37,10 +37,11 @@
     position: relative;
 
     & > img {
-      animation: circl 3s linear infinite;
+      animation: circl 5s linear infinite;
     }
 
     & > div{
+      padding-top: 47px;
       width: 126px;
       height: 126px;
       background: #FFFFFF;
@@ -53,10 +54,10 @@
     }
 
     & > div > span{
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+      //position: absolute;
+      //top: 50%;
+      //left: 50%;
+      //transform: translate(-50%, -50%);
 
 
       color: #FF5249;
@@ -107,7 +108,7 @@
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 458px) {
   .trigger{
     &__title{
       font-size: 20px;

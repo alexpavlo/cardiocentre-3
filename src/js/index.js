@@ -107,6 +107,8 @@ $(document).ready(function() {
 // })
 
 $('.carousel__cards').slick({
+    prevArrow: document.querySelectorAll('.prev__btn'),
+    nextArrow: document.querySelectorAll('.next__btn'),
     dots: true,
     infinite: false,
     speed: 300,
@@ -116,9 +118,6 @@ $('.carousel__cards').slick({
         {
             breakpoint:768,
             settings:{
-                dots: true,
-                infinite: false,
-                speed: 300,
                 slidesToShow: 3,
                 slidesToScroll: 3,
             }
@@ -131,9 +130,13 @@ $('.carousel__cards').slick({
             }
         }
     ]
-})
+});
 
 $('.reviews__selectors').slick({
+    prevArrow: document.querySelectorAll('.prev'),
+    nextArrow: document.querySelectorAll('.next'),
+    // prevArrow: $('.prev'),
+    // nextArrow: $('.next'),
     dots: true,
     infinite: false,
     speed: 300,
@@ -143,9 +146,6 @@ $('.reviews__selectors').slick({
         {
             breakpoint:768,
             settings:{
-                dots: true,
-                infinite: false,
-                speed: 300,
                 slidesToShow: 3,
                 slidesToScroll: 3,
             }
@@ -153,16 +153,15 @@ $('.reviews__selectors').slick({
         {
             breakpoint: 458,
             settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2,
+                slidesToShow: 1,
+                slidesToScroll: 1,
             }
         }
     ]
-})
-
-$('.owl-nav').ready(function (event) {
-$(".owl-nav").removeClass('disabled')
 });
+
+
+
 
 set_timer($('.counter'),[
     20,
@@ -170,3 +169,31 @@ set_timer($('.counter'),[
     20,
     20
 ]);
+
+$(document).ready(function () {
+
+    var show = true
+    $(window).on("scroll load resize", function () {
+
+        if(!show) return false;
+
+        var w_top = $(window).scrollTop();
+        var e_top = $('.number').offset().top;
+
+        var w_height = $(window).height();
+        var d_height = $(document).height();
+
+        var e_height = $('.number').outerHeight();
+
+        console.log(w_top + 200 + " " + e_top);
+
+        if (w_top + 200 >= e_top || w_height + w_top == d_height || e_height + e_top < w_height ){
+            $('.number').spincrement({
+                thousandSeparator: "",
+                duration: 4000
+            })
+
+            show = false
+        }
+    })
+})

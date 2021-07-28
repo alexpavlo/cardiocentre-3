@@ -22,6 +22,11 @@
     font-size: 11px;
     line-height: 13px;
     text-transform: uppercase;
+    transition: 0.5s;
+    &:hover{
+      color: white;
+      background: #FF5249;
+    }
 
   }
 }
@@ -48,6 +53,11 @@
       & a{
         text-decoration: none;
         color: #050910;
+        transition: 0.5s;
+        &:hover{
+          color: #FF5249;
+          transition: 0.5s;
+        }
       }
     }
   }
@@ -150,7 +160,7 @@
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 458px) {
   .container{
     padding: 15px;
   }

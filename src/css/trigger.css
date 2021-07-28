@@ -29,9 +29,10 @@
   position: relative;
 }
 .item__circle > img {
-  animation: circl 3s linear infinite;
+  animation: circl 5s linear infinite;
 }
 .item__circle > div {
+  padding-top: 47px;
   width: 126px;
   height: 126px;
   background: #FFFFFF;
@@ -43,10 +44,6 @@
   transform: translate(-50%, -50%);
 }
 .item__circle > div > span {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   color: #FF5249;
   font-family: "Cambria", sans-serif;
   font-style: normal;
@@ -88,7 +85,7 @@
     margin-bottom: 60px;
   }
 }
-@media (max-width: 380px) {
+@media (max-width: 458px) {
   .trigger__title {
     font-size: 20px;
     line-height: 32px;

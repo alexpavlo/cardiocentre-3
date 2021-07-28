@@ -2,28 +2,24 @@
   //background: url("../img/main/bg.png") center, no-repeat;
   //background-size: cover;
   position: relative;
+  height: 1045px;
+
 
   &__wrapper {
     display: flex;
     //justify-content: space-between;
-    padding-top: 247px;
-    padding-bottom: 400px;
+    padding-top: 143px;
     position: relative;
+    align-items: center;
+  }
 
-    &:before{
-      content: '';
-      width: 603px;
-      height: 902px;
-      background: url("../img/main/spec.png") right bottom no-repeat;
-      background-size: cover;
-      position: absolute;
-      bottom: 0;
-      right: 0;
-    }
+  &__carousel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   &__text {
-    margin-top: 241px;
     z-index: 1;
   }
 
@@ -91,11 +87,11 @@
   }
 
   &__vid {
+    z-index: 2;
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 0;
-    margin-bottom: 136px;
+    top: 80%;
     text-align: center;
 
     & > img{
@@ -137,7 +133,7 @@
 
 .video{
   min-width: 100%;
-  min-height: 100%;
+  height: 1045px;
   position: absolute;
   opacity: 0.5;
 
@@ -147,16 +143,7 @@
 
   .main{
     &__wrapper{
-      &:before{
-        content: '';
-        width: 603px;
-        height: 902px;
-        background: url("../img/main/spec.png") right bottom no-repeat;
-        background-size: cover;
-        position: absolute;
-        bottom: 0;
-        right: -177px;
-      }
+
     }
     &__spec{
 
@@ -170,10 +157,11 @@
 @media (max-width: 458px) {
   .main{
     &__wrapper{
-      &:before{
-        display: none;
-      }
+
     }
+    &__speci{
+       display: none;
+     }
     &__title{
       width: 100%;
       font-size: 28px;
@@ -183,6 +171,9 @@
       width: 100%;
       font-size: 16px;
       line-height: 159.2%;
+    }
+    &__vid{
+      top: 168%
     }
   }
 }

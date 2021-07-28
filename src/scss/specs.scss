@@ -59,6 +59,7 @@
     margin: 0 auto;
     padding: 16px;
     border-radius: 50%;
+    transition: all 0.2s ease
   }
 &:hover{
   transition: all 0.2s ease;
@@ -69,6 +70,23 @@
   //padding: 16px;
 }
 }
+}
+
+.prev__btn {
+  transform: rotate(180deg);
+  font-size: 15px;
+  padding: 17px 18px 16px 20px;
+  border-radius: 50%;
+  background: white;
+  border: 1px solid white;
+}
+
+.next__btn {
+  padding: 17px 18px 16px 20px;
+  border-radius: 50%;
+  background: white;
+  border: 1px solid white;
+  box-shadow: 0 4px 4px rgba(196, 117, 32, 0.15);
 }
 
 .prev {
@@ -112,13 +130,18 @@
   margin-right: 20px;
 }
 
-.slick-dots > li {
-  font-size: 13px;
-  width: 13px;
-  height: 13px;
+.slick-dots li button:before {
+  font-size: 36px;
+  width: 36px;
+  height: 36px;
   border-radius: 50%;
   color: #FF5249;
+& > .active{
+  color: #FF5249;
 }
+}
+
+
 
 @media (max-width: 768px) {
   .circle{
