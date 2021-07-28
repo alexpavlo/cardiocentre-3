@@ -9,6 +9,8 @@
 @import "form.css";
 @import "blog.css";
 @import "footer.css";
+@import "doctors.css";
+
 
 *{
     padding: 0;
@@ -20,7 +22,9 @@
     margin: 0 auto;
 }
 
-
+html{
+    scroll-behavior: smooth;
+}
 
 .counter{
     font-family: "Cambria", sans-serif;

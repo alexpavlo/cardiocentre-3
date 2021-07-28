@@ -1,0 +1,28 @@
+.doctors__title {
+  text-align: center;
+  font-family: "Cambria", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 35px;
+  text-transform: uppercase;
+  color: #050910;
+}
+.doctors__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.doctors__img {
+  width: 272px;
+}
+.doctors__name {
+  text-align: center;
+}
+.doctors__spec {
+  text-align: center;
+}
+.doctors__sign {
+  display: flex;
+  margin: 0 auto;
+}
