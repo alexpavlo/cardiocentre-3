@@ -10,28 +10,30 @@
     <link rel="stylesheet" href="./src/css/index.css">
     <link rel="stylesheet" href="./src/js/WOW/animate.css">
     <link rel="stylesheet" href="./src/js/fancybox/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="./src/css/font-awesome.min.css">
 
 
     <title>Document</title>
 </head>
 <body>
 
-<section class="contacts" id="contacts">
-    <div class="container">
-        <div class="contacts__wrapper">
-            <ul class="contacts__phones wow bounceInLeft">
-                <li><img src="./src/img/contacts/phone.svg" alt=""> +996 (312) 46 85 15</li>
-                <li><img src="./src/img/contacts/phone.svg" alt=""> +996 (552) 30 32 06</li>
-                <li><img src="./src/img/contacts/time.svg" alt=""> 8:00-18:00</li>
-            </ul>
-            <ul class="contacts__location wow bounceInRight">
-                <li><img src="./src/img/contacts/location.svg" alt="">Кыргызстан, г. Бишкек ул. Абдумомунова 236</li>
-            </ul>
-        </div>
-    </div>
-</section>
+
 
 <header class="header">
+    <section class="contacts" id="contacts">
+        <div class="container">
+            <div class="contacts__wrapper">
+                <ul class="contacts__phones wow bounceInLeft">
+                    <li><img src="./src/img/contacts/phone.svg" alt=""> +996 (312) 46 85 15</li>
+                    <li><img src="./src/img/contacts/phone.svg" alt=""> +996 (552) 30 32 06</li>
+                    <li><img src="./src/img/contacts/time.svg" alt=""> 24/7</li>
+                </ul>
+                <ul class="contacts__location wow bounceInRight">
+                    <li><img src="./src/img/contacts/location.svg" alt="">Кыргызстан, г. Бишкек ул. Абдумомунова 236</li>
+                </ul>
+            </div>
+        </div>
+    </section>
     <div class="container">
         <div class="header__wrapper">
             <div class="logo">
@@ -60,7 +62,7 @@
     </div>
 </header>
 
-<section class="main">
+<section class="main" id="main">
     <video src="./src/video/video.mp4" autoplay muted loop class="video"></video>
     <div class="container">
         <div class="main__wrapper">
@@ -75,7 +77,7 @@
                     сложных операций на сердце
                 </p>
 
-                <a href="#form" class="main__reception">Записаться на приём</a>
+                <a href="#popup" class="main__reception">Записаться на приём</a>
 
             </div>
 
@@ -816,14 +818,45 @@
                 </ul>
                 <div>
                     <a href="#"><img src="./src/img/footer/whatsapp.svg" alt=""></a>
-                    <a href="#"><img src="./src/img/footer/vk.svg" alt=""></a>
-                    <a href="#"><img src="./src/img/footer/facebook.svg" alt=""></a>
+                    <a href="https://www.instagram.com/kardiocentr_bishkek/"><img src="./src/img/footer/instagram-2.svg" alt="" style="width: 19px;height: 19px;background: #8A8B8E;padding: 3px;border-radius: 50%;"></a>
+                    <a href="https://www.facebook.com/www.kardiocentr.kg"><img src="./src/img/footer/facebook.svg" alt=""></a>
                     <a href="#"><img src="./src/img/footer/invision.svg" alt=""></a>
                     <a href="#"><img src="./src/img/footer/mailru.svg" alt=""></a>
                     <a href="#"><img src="./src/img/footer/ok.svg" alt=""></a>
                     <a href="#"><img src="./src/img/footer/telegram.svg" alt=""></a>
                 </div>
             </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="popup" id="popup">
+    <a href="#main" class="popup__area"></a>
+    <div class="popup__body">
+        <div class="popup__content">
+            <a href="#main" class="popup__close">X</a>
+            <div class="popup__title">Записаться на приём</div>
+            <form>
+
+                    <label>
+                        <input type="text" class="form__input" placeholder="Имя">
+                    </label>
+                    <label>
+                        <input type="number" class="form__input" placeholder="Номер">
+                    </label>
+                <label>
+                    <input type="text" class="form__textarea" placeholder="Сообщение">
+                </label>
+                <div class="popup__sub">
+                    <button class="popup__submit" type="submit">Записаться на приём</button>
+                    <div class="popup__keys">
+                        <img src="./src/img/form/keys.svg" alt="">
+                        <p>Ваши данные не передаются <br>
+                            третьим лицам</p>
+                    </div>
+                </div>
+            </form>
         </div>
     </div>
 </section>

@@ -1,3 +1,7 @@
+.doctors {
+  margin-top: 115px;
+  margin-bottom: 65px;
+}
 .doctors__title {
   text-align: center;
   font-family: "Cambria", sans-serif;
@@ -7,11 +11,12 @@
   line-height: 35px;
   text-transform: uppercase;
   color: #050910;
+  margin-bottom: 45px;
 }
 .doctors__wrapper {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   width: 100%;
 }

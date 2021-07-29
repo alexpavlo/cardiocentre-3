@@ -198,6 +198,10 @@ $(document).ready(function () {
     })
 })
 
+$('.number-date').spincrement({
+    thousandSeparator: "/"
+})
+
 
 $(document).ready(function(){
     // Добавить плавную прокрутку до всех ссылок

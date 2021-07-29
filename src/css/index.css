@@ -10,7 +10,7 @@
 @import "blog.css";
 @import "footer.css";
 @import "doctors.css";
-
+@import "popup.css";
 
 *{
     padding: 0;

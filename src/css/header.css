@@ -1,5 +1,5 @@
 .header {
-  margin-top: 18px;
+  background: #FFFFFF;
   position: fixed;
   left: 0;
   right: 0;
@@ -7,6 +7,7 @@
 }
 .header__wrapper {
   display: flex;
+  padding: 18px 0;
 }
 .header__call {
   width: 158px;
