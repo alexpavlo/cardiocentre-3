@@ -27,7 +27,7 @@ background: #091F5E;
       }
     }
   }
-  &__location{
+  &__location {
     list-style: none;
     color: white;
     font-family: "Roboto", sans-serif;
@@ -35,12 +35,22 @@ background: #091F5E;
     font-weight: 500;
     font-size: 13px;
     line-height: 15px;
-    & li{
+    & > li {
       display: flex;
       align-items: center;
-      & img{
+
+      & > a {
+        color: white;
+        text-decoration: none;
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 15px;
+
+      & > img{
         margin: 0 7px 0 0;
-      }
+      }}
     }
   }
 }
@@ -69,7 +79,7 @@ background: #091F5E;
       }
     }
     &__location{
-      & > li{
+      & > li > a{
         font-size: 0;
       }
     }

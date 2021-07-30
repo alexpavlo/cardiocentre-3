@@ -36,11 +36,20 @@
   font-size: 13px;
   line-height: 15px;
 }
-.contacts__location li {
+.contacts__location > li {
   display: flex;
   align-items: center;
 }
-.contacts__location li img {
+.contacts__location > li > a {
+  color: white;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+}
+.contacts__location > li > a > img {
   margin: 0 7px 0 0;
 }
 
@@ -53,7 +62,7 @@
   .contacts__phones > li:nth-of-type(1) {
     display: none;
   }
-  .contacts__location > li {
+  .contacts__location > li > a {
     font-size: 0;
   }
 }
