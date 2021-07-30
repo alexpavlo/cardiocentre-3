@@ -128,6 +128,9 @@
 }
 
 @media (max-width: 458px) {
+  .main__wrapper {
+    padding-top: 250px;
+  }
   .main__speci {
     display: none;
   }
@@ -142,6 +145,11 @@
     line-height: 159.2%;
   }
   .main__vid {
-    top: 168%;
+    top: 116%;
+  }
+  .main__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }

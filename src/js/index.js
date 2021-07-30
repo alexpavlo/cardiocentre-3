@@ -142,12 +142,40 @@ $('.reviews__selectors').slick({
     speed: 300,
     slidesToShow: 4,
     slidesToScroll: 4,
-    responsive:[
+    responsive: [
         {
             breakpoint:768,
             settings:{
-                slidesToShow: 3,
-                slidesToScroll: 3,
+                slidesToShow: 2,
+                slidesToScroll: 2,
+            }
+        },
+        {
+            breakpoint: 458,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+            }
+        }
+    ]
+});
+
+$('.doctors__wrapper').slick({
+    prevArrow: document.querySelectorAll('.prev__doc'),
+    nextArrow: document.querySelectorAll('.next__doc'),
+    // prevArrow: $('.prev'),
+    // nextArrow: $('.next'),
+    dots: true,
+    infinite: false,
+    speed: 300,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    responsive: [
+        {
+            breakpoint:768,
+            settings:{
+                slidesToShow: 2,
+                slidesToScroll: 1,
             }
         },
         {

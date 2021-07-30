@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .doctors {
   margin-top: 115px;
   margin-bottom: 65px;
@@ -11,7 +12,6 @@
   line-height: 35px;
   text-transform: uppercase;
   color: #050910;
-  margin-bottom: 45px;
 }
 .doctors__wrapper {
   display: flex;
@@ -26,7 +26,7 @@
   background: #FFFFFF;
   transform: scale(0.7);
   border-radius: 10px;
-  box-shadow: 0 0 80px rgba(255, 82, 73, 0.7);
+  box-shadow: 0 0 40px rgba(255, 82, 73, 0.7);
 }
 .doctors__info {
   width: 100%;
@@ -41,7 +41,7 @@
   font-family: "Cambria", sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 35px;
+  font-size: 28px;
   line-height: 21px;
   color: #050910;
 }
@@ -137,7 +137,7 @@
   object-fit: cover;
   height: 100%;
   width: 100%;
-  background-image: url("../img/main/spec3.png");
+  background-image: url("../img/main/spec33.png");
   background-color: #FFFFFF;
   background-repeat: no-repeat;
   position: absolute;
@@ -151,4 +151,103 @@
   border-radius: 50%;
   background-size: 100% 150%;
   background-position: 0 -25px;
+}
+.doctors__photo4 {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  background-image: url("../img/main/spec5.png");
+  background-color: #FFFFFF;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  background-size: 100% 100%;
+  border-radius: 10px;
+  transition: 1s;
+}
+.doctors__items:hover .doctors__photo4 {
+  transform: scale(0.5, 0.35) translateY(-650px);
+  border-radius: 50%;
+  background-size: 100% 150%;
+  background-position: 0 -25px;
+}
+.doctors__photo5 {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  background-image: url("../img/main/spec6.png");
+  background-color: #FFFFFF;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  background-size: 100% 100%;
+  border-radius: 10px;
+  transition: 1s;
+}
+.doctors__items:hover .doctors__photo5 {
+  transform: scale(0.5, 0.35) translateY(-650px);
+  border-radius: 50%;
+  background-size: 100% 150%;
+  background-position: 0 -25px;
+}
+.doctors__photo6 {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  background-image: url("../img/main/spec7.png");
+  background-color: #FFFFFF;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  background-size: 100% 100%;
+  border-radius: 10px;
+  transition: 1s;
+}
+.doctors__items:hover .doctors__photo6 {
+  transform: scale(0.5, 0.35) translateY(-650px);
+  border-radius: 50%;
+  background-size: 100% 150%;
+  background-position: 0 -25px;
+}
+
+.prev__doc {
+  transform: rotate(180deg);
+  font-size: 15px;
+  padding: 17px 18px 16px 20px;
+  border-radius: 50%;
+  background: white;
+  border: 1px solid white;
+}
+
+.next__doc {
+  padding: 17px 18px 16px 20px;
+  border-radius: 50%;
+  background: white;
+  border: 1px solid white;
+  box-shadow: 0 4px 4px rgba(196, 117, 32, 0.15);
+}
+
+.doctors__main {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .doctors__btn {
+    display: none;
+  }
+}
+@media (max-width: 458px) {
+  .doctors__title {
+    font-family: "Cambria", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    /* identical to box height, or 160% */
+    text-align: center;
+    text-transform: uppercase;
+    /* текст */
+    color: #050910;
+  }
 }
