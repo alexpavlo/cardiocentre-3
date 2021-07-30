@@ -123,9 +123,9 @@
 
 @media (max-width: 768px) {
   .logo{
-    margin-bottom: 20px;
     display: flex;
     justify-content: center;
+    margin: 0 auto;
   }
   .footer{
     &__wrapper{
