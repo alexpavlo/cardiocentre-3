@@ -11,6 +11,7 @@
 @import "footer.css";
 @import "doctors.css";
 @import "popup.css";
+@import "map.css";
 
 *{
     padding: 0;

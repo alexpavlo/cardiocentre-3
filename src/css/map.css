@@ -1,0 +1,16 @@
+@charset "UTF-8";
+.map {
+  margin-top: 215px;
+}
+.map__title {
+  margin-bottom: 45px;
+  font-family: "Cambria", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  text-transform: uppercase;
+  /* текст */
+  color: #050910;
+}
