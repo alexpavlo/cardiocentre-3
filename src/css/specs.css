@@ -141,4 +141,8 @@
     font-size: 20px;
     line-height: 32px;
   }
+
+  .carousel__title {
+    justify-content: center;
+  }
 }

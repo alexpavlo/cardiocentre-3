@@ -90,6 +90,9 @@
     font-size: 20px;
     line-height: 32px;
   }
+  .trigger__items {
+    justify-content: center;
+  }
 }
 @keyframes circl {
   from {

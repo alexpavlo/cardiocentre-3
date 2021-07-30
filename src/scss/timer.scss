@@ -167,10 +167,11 @@
   .timer{
     &__wrapper{
       display: block;
+      text-align: center;
     }
     &__heart{
       width: 295px;
-      margin: 0 auto;
+      margin: 0 0 0 55px;
     }
     &__img{
       width: 258px;
@@ -197,6 +198,14 @@
     &__title{
       font-size: 20px;
       line-height: 32px;
+    }
+  }
+  .countdown{
+    font-size: 52px;
+    line-height: 61px;
+    & .countdown__p > p{
+      margin-right: 0;
+      margin-left: 33px;
     }
   }
 }

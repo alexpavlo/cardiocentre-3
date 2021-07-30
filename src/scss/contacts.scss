@@ -22,9 +22,19 @@ background: #091F5E;
       margin: 0 70px 0 0;
       display: flex;
       align-items: center;
+
+      & > a {
+        color: white;
+        text-decoration: none;
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 15px;
+        margin-left: 7px;
       & img{
         margin: 0 7px 0 0;
-      }
+      }}
     }
   }
   &__location {
@@ -77,9 +87,13 @@ background: #091F5E;
       & > li:nth-of-type(1){
         display: none;
       }
+      & > li:nth-of-type(2){
+        display: block;
+      }
     }
     &__location{
       & > li > a{
+        display: flex;
         font-size: 0;
       }
     }

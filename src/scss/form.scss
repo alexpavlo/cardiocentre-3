@@ -156,6 +156,7 @@
 @media(max-width: 458px) {
   .form {
     &__wrapper {
+      justify-content: center;
       &:before {
         display: none;
       }

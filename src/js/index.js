@@ -161,8 +161,6 @@ $('.reviews__selectors').slick({
 });
 
 $('.doctors__wrapper').slick({
-    prevArrow: document.querySelectorAll('.prev__doc'),
-    nextArrow: document.querySelectorAll('.next__doc'),
     // prevArrow: $('.prev'),
     // nextArrow: $('.next'),
     dots: true,

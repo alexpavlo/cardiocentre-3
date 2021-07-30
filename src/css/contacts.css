@@ -24,7 +24,17 @@
   display: flex;
   align-items: center;
 }
-.contacts__phones li img {
+.contacts__phones li > a {
+  color: white;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  margin-left: 7px;
+}
+.contacts__phones li > a img {
   margin: 0 7px 0 0;
 }
 .contacts__location {
@@ -62,7 +72,11 @@
   .contacts__phones > li:nth-of-type(1) {
     display: none;
   }
+  .contacts__phones > li:nth-of-type(2) {
+    display: block;
+  }
   .contacts__location > li > a {
+    display: flex;
     font-size: 0;
   }
 }

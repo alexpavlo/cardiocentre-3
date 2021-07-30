@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./src/css/index.css">
     <link rel="stylesheet" href="./src/js/WOW/animate.css">
     <link rel="stylesheet" href="./src/js/fancybox/jquery.fancybox.min.css">
-    <link rel="stylesheet" href="./src/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./src/css/all.minfont-awes.css">
 
 
     <title>Document</title>
@@ -18,18 +18,18 @@
 <body>
 
 
-
 <header class="header">
     <section class="contacts" id="contacts">
         <div class="container">
             <div class="contacts__wrapper">
-                <ul class="contacts__phones wow bounceInLeft">
-                    <li><img src="./src/img/contacts/phone.svg" alt=""> +996 (312) 46 85 15</li>
-                    <li><img src="./src/img/contacts/phone.svg" alt=""> +996 (552) 30 32 06</li>
-                    <li><img src="./src/img/contacts/time.svg" alt=""> 24/7</li>
+                <ul class="contacts__phones">
+                    <li><img src="./src/img/contacts/phone.svg" alt=""> <a href="tel: +996 (312) 46 85 15">+996 (312) 46 85 15</a></li>
+                    <li><img src="./src/img/contacts/phone.svg" alt=""> <a href="tel: +996 (552) 30 32 06">+996 (552) 30 32 06</a></li>
+                    <li><img src="./src/img/contacts/time.svg" alt=""> <a href="#">24/7</a></li>
                 </ul>
-                <ul class="contacts__location wow bounceInRight">
-                    <li><a href="#map"><img src="./src/img/contacts/location.svg" alt="">Кыргызстан, г. Бишкек ул. Абдумомунова 236</a></li>
+                <ul class="contacts__location">
+                    <li><a href="#map"><img src="./src/img/contacts/location.svg" alt="">Кыргызстан, г. Бишкек ул.
+                        Абдумомунова 236</a></li>
                 </ul>
             </div>
         </div>
@@ -37,7 +37,7 @@
     <div class="container">
         <div class="header__wrapper">
             <div class="logo">
-                <a href="#"><img src="./src/img/header/logo4.png" alt=""></a>
+                <a href="#"><img src="./src/img/header/logo5.png" alt=""></a>
             </div>
             <div class="burger">
                 <span></span>
@@ -57,7 +57,7 @@
                     </ul>
                 </nav>
             </div>
-            <a href="#form" class="header__call">Заказать звонок</a>
+            <a href="#popup__call" class="header__call">Заказать звонок</a>
         </div>
     </div>
 </header>
@@ -433,29 +433,10 @@
 
 <section class="doctors" id="doctors">
     <div class="container">
-        <div class="doctors__main">
+
         <h2 class="doctors__title">Наши специалисты</h2>
-            <div class="doctors__btn">
-                <button class="prev__doc"><img src="./src/img/specs/coolicon.svg" alt=""></button>
-                <button class="next__doc"><img src="./src/img/specs/coolicon.svg" alt=""></button>
-            </div>
 
-        </div>
         <div class="doctors__wrapper">
-            <div class="doctors__items">
-                <div class="doctors__info">
-                    <div class="doctors__name">Джунусова Ангелина</div>
-                    <div class="doctors__prof">Doctor</div>
-                    <div class="divider"></div>
-                    <div class="doctors__bio">
-                        Врач рентгенэндоваскулярный хирург. Инвазивный кардиолог, аритмолог
-                    </div>
-                    <a href="#popup" class="doctors__sign">Записаться</a>
-                </div>
-                <div class="doctors__photo"></div>
-                <div class="doctors__call">Джунусова Ангелина</div>
-            </div>
-
             <div class="doctors__items">
                 <div class="doctors__info">
                     <div class="doctors__name">Тургунов Мыктыбек</div>
@@ -490,7 +471,8 @@
                     <div class="doctors__prof">Doctor</div>
                     <div class="divider"></div>
                     <div class="doctors__bio">
-                        врач функционалист высшей категории
+                        Кандидат медицинских наук, врач высшей категории, Отличник Здравоохранения Кыргызской
+                        Республики, главный врач клиники «Кардиоцентр»
                     </div>
                     <a href="#popup" class="doctors__sign">Записаться</a>
                 </div>
@@ -792,7 +774,8 @@
     <div class="container">
         <h2 class="map__title">Наше местоположение</h2>
         <div class="map__wrapper">
-            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A5500d42e958b027db0b8d73c89176a0384610e4758e528ea5736173d71a9cff1&amp;source=constructor" width="100%" height="720" frameborder="0"></iframe>
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A5500d42e958b027db0b8d73c89176a0384610e4758e528ea5736173d71a9cff1&amp;source=constructor"
+                    width="100%" height="330" frameborder="0"></iframe>
         </div>
     </div>
 </section>
@@ -800,7 +783,7 @@
 <section class="footer" id="footer">
     <div class="container">
         <div class="footer__wrapper">
-            <a href="#" class="logo"><img src="./src/img/header/logo4.png" alt=""></a>
+            <a href="#" class="logo"><img src="./src/img/header/logo5.png" alt=""></a>
 
             <ul>
                 <div>
@@ -856,13 +839,11 @@
                     </li>
                 </ul>
                 <div>
-                    <a href="#"><img src="./src/img/footer/whatsapp.svg" alt=""></a>
-                    <a href="https://www.instagram.com/kardiocentr_bishkek/"><img src="./src/img/footer/instagram-2.svg" alt="" style="width: 19px;height: 19px;background: #8A8B8E;padding: 3px;border-radius: 50%;"></a>
-                    <a href="https://www.facebook.com/www.kardiocentr.kg"><img src="./src/img/footer/facebook.svg" alt=""></a>
-                    <a href="#"><img src="./src/img/footer/invision.svg" alt=""></a>
-                    <a href="#"><img src="./src/img/footer/mailru.svg" alt=""></a>
-                    <a href="#"><img src="./src/img/footer/ok.svg" alt=""></a>
-                    <a href="#"><img src="./src/img/footer/telegram.svg" alt=""></a>
+                    <a href="https://www.instagram.com/kardiocentr_bishkek/"><img src="./src/img/footer/instagram-2.svg"
+                                                                                  alt=""
+                                                                                  style="width: 19px;height: 19px;background: #8A8B8E;padding: 3px;border-radius: 50%;"></a>
+                    <a href="https://www.facebook.com/www.kardiocentr.kg"><img src="./src/img/footer/facebook.svg"
+                                                                               alt=""></a>
                 </div>
             </div>
         </div>
@@ -877,15 +858,19 @@
             <a href="#main" class="popup__close">X</a>
             <div class="popup__title">Записаться на приём</div>
             <form>
+                <span class="popup__name">Имя</span>
+                <label class="popup__label">
 
-                    <label>
-                        <input type="text" class="form__input" placeholder="Имя">
-                    </label>
-                    <label>
-                        <input type="number" class="form__input" placeholder="Номер">
-                    </label>
-                <label>
-                    <input type="text" class="form__textarea" placeholder="Сообщение">
+                    <i class="fas fa-user"></i><input type="text" class="popup__input" placeholder="Ваше имя" required>
+                </label>
+                <span class="popup__name">Телефон</span>
+                <label class="popup__label">
+                    <i class="fas fa-phone-alt"></i><input type="tel" class="popup__input" placeholder="+996" required>
+                </label>
+                <span class="popup__name">E-mail</span>
+                <label class="popup__label">
+                    <i class="fas fa-envelope"></i><input type="email" class="popup__input"
+                                                          placeholder="pochta@mail.ru">
                 </label>
                 <div class="popup__sub">
                     <button class="popup__submit" type="submit">Записаться на приём</button>
@@ -900,6 +885,34 @@
     </div>
 </section>
 
+<section class="popup" id="popup__call">
+    <a href="#main" class="popup__area"></a>
+    <div class="popup__body">
+        <div class="popup__content">
+            <a href="#main" class="popup__close">X</a>
+            <div class="popup__title">Закажите консультацию</div>
+            <div class="popup__subtitle">Ответ в течение 5 минут</div>
+            <form>
+                <span class="popup__name">Имя</span>
+                <label class="popup__label">
+
+                    <i class="fas fa-user"></i><input type="text" class="popup__input" placeholder="Ваше имя" required>
+                </label>
+                <span class="popup__name">Телефон</span>
+                <label class="popup__label">
+                    <i class="fas fa-phone-alt"></i><input type="tel" class="popup__input" placeholder="+996" required>
+                </label>
+                <span class="popup__name">E-mail</span>
+                <label class="popup__label">
+                    <i class="fas fa-envelope"></i><input type="email" class="popup__input" placeholder="pochta@mail.ru">
+                </label>
+                <div class="popup__sub2">
+                    <button class="popup__submit" type="submit">Записаться на приём</button>
+                </div>
+        </form>
+    </div>
+    </div>
+</section>
 
 <script src="./src/js/jquery-3.6.0.min.js"></script>
 <script src="./src/js/slick.min.js"></script>

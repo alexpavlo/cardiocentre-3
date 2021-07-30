@@ -123,6 +123,9 @@
   }
 }
 @media (max-width: 458px) {
+  .form__wrapper {
+    justify-content: center;
+  }
   .form__wrapper:before {
     display: none;
   }

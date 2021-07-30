@@ -147,10 +147,11 @@
 @media (max-width: 458px) {
   .timer__wrapper {
     display: block;
+    text-align: center;
   }
   .timer__heart {
     width: 295px;
-    margin: 0 auto;
+    margin: 0 0 0 55px;
   }
   .timer__img {
     width: 258px;
@@ -176,6 +177,15 @@
   .timer__title {
     font-size: 20px;
     line-height: 32px;
+  }
+
+  .countdown {
+    font-size: 52px;
+    line-height: 61px;
+  }
+  .countdown .countdown__p > p {
+    margin-right: 0;
+    margin-left: 33px;
   }
 }
 @keyframes pulse {

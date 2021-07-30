@@ -173,6 +173,18 @@
     }
   }
 .burger{
-  left: 40px;
+  left: 160px;
 }
+}
+
+@media (max-width: 375px) {
+  .burger{
+    left: 138px;
+  }
+}
+
+@media (max-width: 320px) {
+  .burger{
+    left: 85px;
+  }
 }
