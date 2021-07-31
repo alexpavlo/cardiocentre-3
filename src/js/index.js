@@ -48,6 +48,10 @@ $(document).ready(function() {
     $('.burger').click(function() {
         $('.burger').toggleClass('activeMenu');
     });
+    $('.header__link').click(function () {
+        $('.nav').removeClass('activeMenu');
+        $('.burger').removeClass('activeMenu')
+    })
 });
 
 // $(document).ready(function () {
@@ -190,10 +194,10 @@ $('.doctors__wrapper').slick({
 
 
 set_timer($('.counter'),[
-    20,
-    20,
-    20,
-    20
+    12,
+    24,
+    59,
+    59
 ]);
 
 $(document).ready(function () {

@@ -125,17 +125,22 @@
   }
 
   .nav {
+    overflow-y: auto;
     display: none;
     position: fixed;
     top: 0;
-    left: 0;
+    left: -100%;
     width: 100%;
     height: 100%;
+    transition: left 0.5s ease;
   }
   .nav.activeMenu {
     display: flex;
-    justify-content: center;
     background: #FF5249;
+    top: 0;
+    left: 0;
+    padding: 70px 0 0 30px;
+    align-items: baseline;
   }
   .nav > ul {
     display: block;
@@ -143,6 +148,11 @@
   .nav > ul > li {
     margin-right: 0;
     margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: left;
+    text-transform: uppercase;
   }
   .nav > ul > li > a {
     color: #FFFFFF;

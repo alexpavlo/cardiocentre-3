@@ -48,12 +48,12 @@
             <div class="menu">
                 <nav class="nav">
                     <ul>
-                        <li><a href="#triggers">О нас</a></li>
-                        <li><a href="#timer">Услуги</a></li>
-                        <li><a href="#advantage">Прайс</a></li>
-                        <li><a href="#specs">Отделения</a></li>
-                        <li><a href="#doctors">Cпециалисты</a></li>
-                        <li><a href="#contacts">Контакты</a></li>
+                        <li><a href="#triggers" class="header__link">О нас</a></li>
+                        <li><a href="#timer" class="header__link">Услуги</a></li>
+                        <li><a href="#advantage" class="header__link">Прайс</a></li>
+                        <li><a href="#specs" class="header__link">Отделения</a></li>
+                        <li><a href="#doctors" class="header__link">Cпециалисты</a></li>
+                        <li><a href="#contacts" class="header__link">Контакты</a></li>
                     </ul>
                 </nav>
             </div>
@@ -77,7 +77,7 @@
                     сложных операций на сердце
                 </p>
 
-                <a href="#popup" class="main__reception">Записаться на приём</a>
+                <a href="#popup__call" class="main__reception">Записаться на приём</a>
 
             </div>
 
@@ -106,16 +106,14 @@
         </h2>
         <div class="timer__wrapper">
             <div class="timer__heart wow bounceInLeft">
-                <p class="timer__price">10 000 <br>
-                    сом</p>
                 <div class="timer__img">
                     <img src="./src/img/timer/hearts.svg" alt="">
                 </div>
             </div>
             <div class="timer__timer wow bounceInRight">
-                <h3>Оставьте заявку на комплексное обследование <br>
-                    прямо сейчас и получите <span>скидку 10%</span></h3>
-                <p>До конца акции осталось:</p>
+                <h3>Каждую пятницу в центральном стационаре <br>
+                    проводиться <span>бесплатная консультация кардиолога.</span></h3>
+                <p>До пятницы осталось:</p>
                 <div class="countdown">
                     <div class="counter"></div>
                     <div class="countdown__p">
@@ -125,7 +123,7 @@
                         <p>Секунд</p>
                     </div>
                 </div>
-                <a href="#popup" class="timer__sell">получить скидку</a>
+                <a href="#popup__call" class="timer__sell">записаться на приём</a>
             </div>
         </div>
     </div>
@@ -774,8 +772,7 @@
     <div class="container">
         <h2 class="map__title">Наше местоположение</h2>
         <div class="map__wrapper">
-            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A5500d42e958b027db0b8d73c89176a0384610e4758e528ea5736173d71a9cff1&amp;source=constructor"
-                    width="100%" height="330" frameborder="0"></iframe>
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A5500d42e958b027db0b8d73c89176a0384610e4758e528ea5736173d71a9cff1&amp;source=constructor" width="100%" height="330" frameborder="0"></iframe>
         </div>
     </div>
 </section>
@@ -824,10 +821,10 @@
 
             <ul>
                 <li class="footer__phone">
-                    <a href="#"><img src="./src/img/footer/phone.svg" alt="">+996 (312) 46 85 15</a>
+                    <a href="tel: +996 (312) 46 85 15"><img src="./src/img/footer/call.svg" width="18" height="18" alt="">+996 (312) 46 85 15</a>
                 </li>
                 <li class="footer__phone">
-                    <a href="#"> <img src="./src/img/footer/phone.svg" alt="">+996 (552) 30 32 06</a>
+                    <a href="tel: +996 (552) 30 32 06"> <img src="./src/img/footer/call.svg" width="18" height="18" alt="">+996 (552) 30 32 06</a>
                 </li>
             </ul>
 
@@ -835,15 +832,15 @@
             <div class="social__wrapper">
                 <ul>
                     <li class="footer__location">
-                        <a href="#"><img src="./src/img/footer/location.svg" alt=""> Адреса филиалов</a>
+                        <a href="#map"><img src="./src/img/footer/pin.svg" width="18" height="18" alt=""> Адреса филиалов</a>
                     </li>
                 </ul>
                 <div>
                     <a href="https://www.instagram.com/kardiocentr_bishkek/"><img src="./src/img/footer/instagram-2.svg"
-                                                                                  alt=""
-                                                                                  style="width: 19px;height: 19px;background: #8A8B8E;padding: 3px;border-radius: 50%;"></a>
-                    <a href="https://www.facebook.com/www.kardiocentr.kg"><img src="./src/img/footer/facebook.svg"
-                                                                               alt=""></a>
+                                                                                  alt="instagram.com/kardiocentr_bishkek"
+                                                                                  style="width: 19px;height: 19px;background: #000000;padding: 3px;border-radius: 50%;"></a>
+                    <a href="https://www.facebook.com/www.kardiocentr.kg"><img src="./src/img/footer/facebook-circular-logo.svg"
+                                                                               alt="facebook.com/www.kardiocentr.kg" width="18" height="18"></a>
                 </div>
             </div>
         </div>

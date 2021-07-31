@@ -22,10 +22,10 @@
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
-  line-height: 14px;
+  font-size: 14px;
+  line-height: 18px;
   text-transform: capitalize;
-  color: #8A8B8E;
+  color: black;
 }
 .footer__wrapper > img {
   width: 263px;
@@ -42,7 +42,7 @@
   font-size: 13px;
   line-height: 15px;
   display: flex;
-  color: rgba(5, 9, 16, 0.5);
+  color: black;
 }
 .footer__phone > a > img {
   padding-right: 7px;
@@ -59,10 +59,13 @@
   font-weight: 500;
   font-size: 13px;
   line-height: 15px;
-  color: #828487;
+  color: black;
 }
 .social__wrapper > ul > .footer__location > a > img {
-  margin-right: 15px;
+  margin-right: 7px;
+}
+.social__wrapper > div {
+  text-align: center;
 }
 
 @media (max-width: 458px) {

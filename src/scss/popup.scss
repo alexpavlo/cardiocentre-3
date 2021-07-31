@@ -154,6 +154,11 @@
   color: #FF5249;
 }
 
+.fa-phone{
+  color: black;
+  transform: scale(-90deg);
+}
+
 @media (max-width: 320px) {
   .popup__content{
     max-width: 300px;

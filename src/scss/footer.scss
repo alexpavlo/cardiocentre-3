@@ -26,11 +26,11 @@
         font-family: "Roboto", sans-serif;
         font-style: normal;
         font-weight: normal;
-        font-size: 12px;
-        line-height: 14px;
+        font-size: 14px;
+        line-height: 18px;
         text-transform: capitalize;
 
-        color: #8A8B8E;
+        color: black;
       }
     }
 
@@ -54,7 +54,7 @@
 
       display: flex;
 
-      color: rgba(5, 9, 16, 0.5);
+      color: black;
     }
 
     & > a > img {
@@ -78,13 +78,16 @@
         font-size: 13px;
         line-height: 15px;
 
-        color: #828487;
+        color: black;
 
         & > img {
-          margin-right: 15px;
+          margin-right: 7px;
         }
       }
     }
+  }
+  & > div{
+    text-align: center;
   }
 }
 
