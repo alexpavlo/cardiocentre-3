@@ -74,6 +74,7 @@
   }
   .contacts__phones > li:nth-of-type(2) {
     display: block;
+    margin-right: 30px;
   }
   .contacts__location > li > a {
     display: flex;
