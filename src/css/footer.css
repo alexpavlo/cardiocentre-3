@@ -52,6 +52,17 @@
   list-style: none;
   margin-bottom: 13px;
 }
+.social__wrapper > ul > .footer__location {
+  text-align: center;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  color: black;
+  margin-bottom: 5px;
+}
 .social__wrapper > ul > .footer__location > a {
   text-decoration: none;
   font-family: "Roboto", sans-serif;

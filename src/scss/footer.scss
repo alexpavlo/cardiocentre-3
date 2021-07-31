@@ -69,6 +69,16 @@
     margin-bottom: 13px;
 
     & > .footer__location {
+      text-align: center;
+      text-decoration: none;
+      font-family: "Roboto", sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 13px;
+      line-height: 15px;
+      color: black;
+
+      margin-bottom: 5px;
 
       & > a {
         text-decoration: none;

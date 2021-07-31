@@ -35,11 +35,11 @@
   display: flex;
   align-items: center;
 }
-.nav ul {
+.nav > .nav__ul {
   display: flex;
   list-style: none;
 }
-.nav ul li {
+.nav > .nav__ul li {
   margin-right: 40px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -49,12 +49,12 @@
   text-align: right;
   text-transform: uppercase;
 }
-.nav ul li a {
+.nav > .nav__ul li a {
   text-decoration: none;
   color: #050910;
   transition: 0.5s;
 }
-.nav ul li a:hover {
+.nav > .nav__ul li a:hover {
   color: #FF5249;
   transition: 0.5s;
 }
@@ -110,9 +110,36 @@
   margin: 0 40px 0 225px;
 }
 
+.header__phones-mobile {
+  display: none;
+}
+
 @media (max-width: 768px) {
   body {
     overflow-x: hidden;
+  }
+
+  .header__phones-mobile {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+  }
+  .header__phones-mobile > li {
+    list-style: none;
+  }
+  .header__phones-mobile > li:nth-of-type(2) {
+    margin-bottom: 10px;
+  }
+  .header__phones-mobile > li > a {
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: left;
+    text-transform: uppercase;
   }
 
   .burger {
@@ -136,16 +163,18 @@
   }
   .nav.activeMenu {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background: #FF5249;
     top: 0;
     left: 0;
     padding: 70px 0 0 30px;
     align-items: baseline;
   }
-  .nav > ul {
+  .nav > .nav__ul {
     display: block;
   }
-  .nav > ul > li {
+  .nav > .nav__ul > li {
     margin-right: 0;
     margin-bottom: 10px;
     font-weight: 600;
@@ -154,7 +183,7 @@
     text-align: left;
     text-transform: uppercase;
   }
-  .nav > ul > li > a {
+  .nav > .nav__ul > li > a {
     color: #FFFFFF;
   }
 
