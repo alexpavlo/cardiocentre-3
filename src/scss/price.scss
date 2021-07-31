@@ -1,0 +1,38 @@
+.price {
+  &__wrapper {
+    width: 100%;
+      background-image: url("../img/price/price-1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 900px;
+  }
+
+  &__inner {
+    width: 100%;
+    background-image: url("../img/price/price-2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 900px;
+  }
+}
+
+@media (max-width: 768px) {
+  .price__wrapper{
+    height: 450px;
+  }
+  .price__inner{
+    height: 450px;
+  }
+}
+
+
+@media (max-width: 458px) {
+  .price__wrapper{
+    height: 250px;
+  }
+  .price__inner{
+    height: 250px;
+  }
+}

@@ -12,6 +12,7 @@
 @import "doctors.css";
 @import "popup.css";
 @import "map.css";
+@import "price.css";
 
 *{
     padding: 0;
