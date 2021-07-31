@@ -41,6 +41,9 @@ html{
 
 
 @media (max-width: 768px) {
+    html{
+        overflow-x: hidden;
+    }
     .container{
         padding: 0 30px;
     }
