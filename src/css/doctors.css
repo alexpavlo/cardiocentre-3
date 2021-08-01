@@ -114,6 +114,7 @@
   border-radius: 50%;
   background-size: 100% 150%;
   background-position: 0 -25px;
+  outline: none;
 }
 .doctors__photo2 {
   height: 100%;
@@ -132,6 +133,7 @@
   border-radius: 50%;
   background-size: 100% 150%;
   background-position: 0 -25px;
+  outline: none;
 }
 .doctors__photo3 {
   object-fit: cover;
@@ -151,6 +153,7 @@
   border-radius: 50%;
   background-size: 100% 150%;
   background-position: 0 -25px;
+  outline: none;
 }
 .doctors__photo4 {
   object-fit: cover;
@@ -170,6 +173,7 @@
   border-radius: 50%;
   background-size: 100% 150%;
   background-position: 0 -25px;
+  outline: none;
 }
 .doctors__photo5 {
   object-fit: cover;
@@ -189,6 +193,7 @@
   border-radius: 50%;
   background-size: 100% 150%;
   background-position: 0 -25px;
+  outline: none;
 }
 .doctors__photo6 {
   object-fit: cover;
@@ -208,6 +213,7 @@
   border-radius: 50%;
   background-size: 100% 150%;
   background-position: 0 -25px;
+  outline: none;
 }
 
 .prev__doc {
