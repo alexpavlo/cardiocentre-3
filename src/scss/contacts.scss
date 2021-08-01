@@ -11,7 +11,7 @@ background: #091F5E;
   }
   &__phones{
     display: flex;
-    flex-direction: column-reverse;
+    //flex-direction: column-reverse;
     align-items: flex-end;
     list-style: none;
     color: white;
@@ -24,9 +24,6 @@ background: #091F5E;
       margin: 0 70px 0 0;
       display: flex;
       align-items: center;
-      &:nth-of-type(2){
-        margin-bottom: 5px;
-      }
 
       & > a {
         color: white;
