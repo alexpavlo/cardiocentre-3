@@ -233,6 +233,160 @@
     background-position: 0 -25px;
     outline: none;
   }
+
+  &__photo7{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    background-image: url("../img/main/spec8.png");
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    background-size: 100% 100%;
+    border-radius: 10px;
+    transition: 1s;
+  }
+
+  &__items:hover &__photo7{
+    transform: scale(0.5, 0.35) translateY(-650px);
+    border-radius: 50%;
+    background-size: 100% 150%;
+    background-position: 0 -25px;
+    outline: none;
+  }
+
+  &__photo8{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    background-image: url("../img/main/spec9.png");
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    background-size: 100% 100%;
+    border-radius: 10px;
+    transition: 1s;
+  }
+
+  &__items:hover &__photo8{
+    transform: scale(0.5, 0.35) translateY(-650px);
+    border-radius: 50%;
+    background-size: 100% 150%;
+    background-position: 0 -25px;
+    outline: none;
+  }
+
+  &__photo9{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    background-image: url("../img/main/spec10.png");
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    background-size: 100% 100%;
+    border-radius: 10px;
+    transition: 1s;
+  }
+
+  &__items:hover &__photo9{
+    transform: scale(0.5, 0.35) translateY(-650px);
+    border-radius: 50%;
+    background-size: 100% 150%;
+    background-position: 0 -25px;
+    outline: none;
+  }
+
+  &__photo10{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    background-image: url("../img/main/spec11.png");
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    background-size: 100% 100%;
+    border-radius: 10px;
+    transition: 1s;
+  }
+
+  &__items:hover &__photo10{
+    transform: scale(0.5, 0.35) translateY(-650px);
+    border-radius: 50%;
+    background-size: 100% 150%;
+    background-position: 0 -25px;
+    outline: none;
+  }
+
+  &__photo11{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    background-image: url("../img/main/spec12.png");
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    background-size: 100% 100%;
+    border-radius: 10px;
+    transition: 1s;
+  }
+
+  &__items:hover &__photo11{
+    transform: scale(0.5, 0.35) translateY(-650px);
+    border-radius: 50%;
+    background-size: 100% 150%;
+    background-position: 0 -25px;
+    outline: none;
+  }
+
+  &__photo12{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    background-image: url("../img/main/spec13.png");
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    background-size: 100% 100%;
+    border-radius: 10px;
+    transition: 1s;
+  }
+
+  &__items:hover &__photo12{
+    transform: scale(0.5, 0.35) translateY(-650px);
+    border-radius: 50%;
+    background-size: 100% 150%;
+    background-position: 0 -25px;
+    outline: none;
+  }
+
+  &__photo13{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    background-image: url("../img/main/spec14.png");
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    background-size: 100% 100%;
+    border-radius: 10px;
+    transition: 1s;
+  }
+
+  &__items:hover &__photo13{
+    transform: scale(0.5, 0.35) translateY(-650px);
+    border-radius: 50%;
+    background-size: 100% 150%;
+    background-position: 0 -25px;
+    outline: none;
+  }
 }
 
 .prev__doc{

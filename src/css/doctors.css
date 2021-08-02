@@ -215,6 +215,146 @@
   background-position: 0 -25px;
   outline: none;
 }
+.doctors__photo7 {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  background-image: url("../img/main/spec8.png");
+  background-color: #FFFFFF;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  background-size: 100% 100%;
+  border-radius: 10px;
+  transition: 1s;
+}
+.doctors__items:hover .doctors__photo7 {
+  transform: scale(0.5, 0.35) translateY(-650px);
+  border-radius: 50%;
+  background-size: 100% 150%;
+  background-position: 0 -25px;
+  outline: none;
+}
+.doctors__photo8 {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  background-image: url("../img/main/spec9.png");
+  background-color: #FFFFFF;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  background-size: 100% 100%;
+  border-radius: 10px;
+  transition: 1s;
+}
+.doctors__items:hover .doctors__photo8 {
+  transform: scale(0.5, 0.35) translateY(-650px);
+  border-radius: 50%;
+  background-size: 100% 150%;
+  background-position: 0 -25px;
+  outline: none;
+}
+.doctors__photo9 {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  background-image: url("../img/main/spec10.png");
+  background-color: #FFFFFF;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  background-size: 100% 100%;
+  border-radius: 10px;
+  transition: 1s;
+}
+.doctors__items:hover .doctors__photo9 {
+  transform: scale(0.5, 0.35) translateY(-650px);
+  border-radius: 50%;
+  background-size: 100% 150%;
+  background-position: 0 -25px;
+  outline: none;
+}
+.doctors__photo10 {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  background-image: url("../img/main/spec11.png");
+  background-color: #FFFFFF;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  background-size: 100% 100%;
+  border-radius: 10px;
+  transition: 1s;
+}
+.doctors__items:hover .doctors__photo10 {
+  transform: scale(0.5, 0.35) translateY(-650px);
+  border-radius: 50%;
+  background-size: 100% 150%;
+  background-position: 0 -25px;
+  outline: none;
+}
+.doctors__photo11 {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  background-image: url("../img/main/spec12.png");
+  background-color: #FFFFFF;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  background-size: 100% 100%;
+  border-radius: 10px;
+  transition: 1s;
+}
+.doctors__items:hover .doctors__photo11 {
+  transform: scale(0.5, 0.35) translateY(-650px);
+  border-radius: 50%;
+  background-size: 100% 150%;
+  background-position: 0 -25px;
+  outline: none;
+}
+.doctors__photo12 {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  background-image: url("../img/main/spec13.png");
+  background-color: #FFFFFF;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  background-size: 100% 100%;
+  border-radius: 10px;
+  transition: 1s;
+}
+.doctors__items:hover .doctors__photo12 {
+  transform: scale(0.5, 0.35) translateY(-650px);
+  border-radius: 50%;
+  background-size: 100% 150%;
+  background-position: 0 -25px;
+  outline: none;
+}
+.doctors__photo13 {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  background-image: url("../img/main/spec14.png");
+  background-color: #FFFFFF;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  background-size: 100% 100%;
+  border-radius: 10px;
+  transition: 1s;
+}
+.doctors__items:hover .doctors__photo13 {
+  transform: scale(0.5, 0.35) translateY(-650px);
+  border-radius: 50%;
+  background-size: 100% 150%;
+  background-position: 0 -25px;
+  outline: none;
+}
 
 .prev__doc {
   transform: rotate(180deg);

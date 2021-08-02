@@ -171,13 +171,13 @@ $('.doctors__wrapper').slick({
     infinite: false,
     speed: 300,
     slidesToShow: 4,
-    slidesToScroll: 1,
+    slidesToScroll: 4,
     responsive: [
         {
             breakpoint:768,
             settings:{
                 slidesToShow: 2,
-                slidesToScroll: 1,
+                slidesToScroll: 2,
             }
         },
         {
@@ -194,10 +194,10 @@ $('.doctors__wrapper').slick({
 
 
 set_timer($('.counter'),[
-    12,
-    24,
+    20,
+    20,
     59,
-    59
+    59,
 ]);
 
 $(document).ready(function () {
@@ -256,4 +256,27 @@ $(document).ready(function(){
             });
         } // Конец, если
     });
+});
+
+
+//php для отправки формы обратной связи
+$(document).ready(function() {
+
+    //E-mail Ajax Send
+    $("form").submit(function() { //Change
+        var th = $(this);
+        $.ajax({
+            type: "POST",
+            url: "../mail.php", //Change
+            data: th.serialize()
+        }).done(function() {
+            alert("Cпасибо! Мы вам перезвоним в течении 5 минут");
+            setTimeout(function() {
+                // Done Functions
+                th.trigger("reset");
+            }, 1000);
+        });
+        return false;
+    });
+
 });
