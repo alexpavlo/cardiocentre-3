@@ -194,10 +194,10 @@ $('.doctors__wrapper').slick({
 
 
 set_timer($('.counter'),[
+    4,
+    2,
+    24,
     20,
-    20,
-    59,
-    59,
 ]);
 
 $(document).ready(function () {
