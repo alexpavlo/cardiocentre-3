@@ -387,6 +387,28 @@
     background-position: 0 -25px;
     outline: none;
   }
+
+  &__photo14{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    background-image: url("../img/main/spec15.png");
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    background-size: 100% 100%;
+    border-radius: 10px;
+    transition: 1s;
+  }
+
+  &__items:hover &__photo14{
+    transform: scale(0.5, 0.35) translateY(-650px);
+    border-radius: 50%;
+    background-size: 100% 150%;
+    background-position: 0 -25px;
+    outline: none;
+  }
 }
 
 .prev__doc{

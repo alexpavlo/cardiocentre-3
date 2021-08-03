@@ -165,8 +165,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background: url("../img/contacts/bg.jpg") center no-repeat;
-    background-size: cover;
+    background: #091F5E;
     top: 0;
     left: 0;
     padding: 70px 0 0 30px;
